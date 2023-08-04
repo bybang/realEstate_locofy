@@ -10,7 +10,7 @@ import Footer from "../components/footer";
 
 const LandingPage = () => {
   return (
-    <div className="relative bg-gray-white w-full h-[5095.99px] flex flex-col items-center justify-start">
+    <div className="relative bg-gray-white w-full flex flex-col items-center justify-start">
       <Header hamburger={false} />
       <Hero />
       <AreaContainer />
@@ -18,15 +18,7 @@ const LandingPage = () => {
       <RentPropertiesContainer />
       <RentPropertiesFilter />
       <Contact />
-      <Footer
-        imageIds="/houseline1.svg"
-        smallImageIds="/social-media-logo.svg"
-        mediumImageIds="/social-media-logo1.svg"
-        smallImageIds2="/social-media-logo2.svg"
-        smallImageIds3="/social-media-logo3.svg"
-        largeImageIds="/social-media-logo4.svg"
-        propOverflow="unset"
-      />
+      <Footer />
     </div>
   );
 };
